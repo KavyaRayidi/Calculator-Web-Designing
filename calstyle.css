@@ -1,0 +1,55 @@
+body{
+	font-family: sans-serif;
+	background-color: black;
+}
+
+.calculator {
+	width: 350px;
+	height: 540px;
+	background-color: #FFA500;
+	margin: 0 auto;
+	top: 20px;
+}
+
+.history {
+	text-align: right;
+	height: 30px;
+	padding-top: 20px;
+	font-size: 15px;
+	color: #919191;
+}
+
+.output {
+	text-align: right;
+	height: 60px;
+	margin: 20px 20px;
+	font-size: 36px;
+}
+.keyboard {
+	height: 500px;
+}
+
+.result {
+	height: 150px;
+}
+
+.operator, .number, .empty{
+	width: 50px;
+	height: 50px;
+	margin: 15px;
+	float: left;
+	font-weight: bold;
+	font-size: 15px;
+}
+
+.number, .empty{
+	background-color: #eaedef;
+}
+
+.number, .operator{
+	cursor: pointer;
+}
+
+.operator:focus, .number:focus, .empty:focus{
+	outline: 0;
+}
